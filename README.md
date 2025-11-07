@@ -1,14 +1,14 @@
-# ENTRUST (Laravel 9|10 Package)
+# ENTRUST (Laravel 10 Package)
 
 Forked from [zizaco/entrust](https://github.com/Zizaco/entrust)
 
-Entrust is a succinct and flexible way to add Role-based Permissions to **Laravel 9|10**.
+Entrust is a succinct and flexible way to add Role-based Permissions to **Laravel 10**.
 
 If you are using an older version of laravel, use version ~3.0
 
 ## Contents
 
-- [ENTRUST (Laravel 9|10 Package)](#entrust-laravel-910-package)
+- [ENTRUST (Laravel 10 Package)](#entrust-laravel-910-package)
   - [Contents](#contents)
   - [Installation](#installation)
   - [Configuration](#configuration)
@@ -32,10 +32,10 @@ If you are using an older version of laravel, use version ~3.0
 
 ## Installation
 
-1) In order to install Laravel 5 Entrust, just add the following to your composer.json. Then run `composer update`:
+1) In order to install Laravel 10 Entrust, just add the following to your composer.json. Then run `composer update`:
 
 ```json
-"zizaco/entrust": "5.2.x-dev"
+"zizaco/entrust": "laravel-10-support-dev"
 ```
 
 2) Open your `config/app.php` and add the following to the `providers` array:
@@ -68,7 +68,7 @@ php artisan vendor:publish
 ],
 ```
 
-6)  If you want to use [Middleware](#middleware) (requires Laravel 5.1 or later) you also need to add the following:
+6)  If you want to use [Middleware](#middleware) (requires Laravel 10 or later) you also need to add the following:
 
 ```php
     'role' => \Zizaco\Entrust\Middleware\EntrustRole::class,
